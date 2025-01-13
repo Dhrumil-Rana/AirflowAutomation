@@ -14,6 +14,23 @@ List any software, libraries, or hardware needed to run this project.
 ### Installing
 - **Step 1**: 
 Create a new docker container using the following command: `docker-compose up --build`
+- **Step 2**:
+Go to `localhost:8080` to access the Airflow web interface.
+- **Step 3**:
+Run the dag by enabling the current dag and clicking on the trigger dag button.
+- **Step 4**:
+Check the logs to see if the dag has run successfully.
+- **Step 5**:
+Use this Docker command to stop the build: `docker-compose down`
+
+
+### Output
+- **dag_example_output**:
+![alt text](Screenshots/image.png)
+
+- **dag_example_output2**:
+![alt text](Screenshots/image-1.png)
+
 
 ## Usage
 Initial commit to the github repository.
